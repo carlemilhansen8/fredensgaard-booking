@@ -1,0 +1,60 @@
+/* Grundopsætning for hele siden */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+}
+
+/* Topfelt */
+header {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Begrænser bredden på indholdet */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Kort til hvert hejs */
+.booking-card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
+}
+
+/* Overskrift i hvert kort */
+.booking-card h2 {
+    margin-top: 0;
+}
+
+/* Knapper */
+.booking-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Effekt når musen holdes over knappen */
+.booking-card a:hover {
+    background-color: #1d4ed8;
+}
+
+/* Bundtekst */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #6b7280;
+}
