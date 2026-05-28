@@ -6,12 +6,32 @@ body {
     color: #1f2937;
 }
 
-/* Topfelt */
 header {
-    background-color: #1f2937;
+    background-image: url("header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     color: white;
     text-align: center;
-    padding: 40px 20px;
+    padding: 80px 20px;
+
+    position: relative;
+}
+
+/* Mørkt overlay */
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+/* Sørger for at tekst ligger ovenpå overlay */
+header h1,
+header p {
+    position: relative;
+    z-index: 1;
 }
 
 /* Begrænser bredden på indholdet */
