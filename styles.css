@@ -75,7 +75,28 @@ main {
 
 /* Bundtekst */
 footer {
+    position: relative;
+
     text-align: center;
-    padding: 20px;
+    padding: 30px 20px;
     color: #6b7280;
+
+    background-color: white;
+}
+
+/* Firmalogo */
+footer::after {
+    content: "";
+
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+    width: 120px;
+    height: 60px;
+
+    background-image: url("footer.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
