@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking af hejs - Fredensgård</title>
+
+    <!-- Kobler CSS-filen på siden -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Booking af hejs - Fredensgård</h1>
+        <p>Herunder finder du links til booking af hejs og en vejledning til bookingsystemet.</p>
+        <p>Du kan derudover også booke ved det enkelte hejs via QR-koden på pladsen.</p>
+    </header>
+
+    <main>
+        <!-- Hver booking-card er ét hejs -->
+        <section class="booking-card">
+            <h2>Indvendigt hejs 1</h2>
+            <p>Klik herunder for at booke en tid.</p>
+            <a href="INDSÆT-LINK-HER" target="_blank" rel="noopener noreferrer">Book tid</a>
+        </section>
+
+        <section class="booking-card">
+            <h2>Indvendigt hejs 2</h2>
+            <p>Klik herunder for at booke en tid.</p>
+            <a href="INDSÆT-LINK-HER" target="_blank" rel="noopener noreferrer">Book tid</a>
+        </section>
+
+        <section class="booking-card">
+            <h2>Udvendigt hejs</h2>
+            <p>Klik herunder for at booke en tid.</p>
+            <a href="INDSÆT-LINK-HER" target="_blank" rel="noopener noreferrer">Book tid</a>
+        </section>
+
+        <section class="booking-card">
+            <h2>Hejs på transformerplads</h2>
+            <p>Klik herunder for at booke en tid.</p>
+            <a href="INDSÆT-LINK-HER" target="_blank" rel="noopener noreferrer">Book tid</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Fredensgård - Booking af byggepladshejs</p>
+    </footer>
+
+</body>
+</html>
